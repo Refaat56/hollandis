@@ -79,7 +79,7 @@ section {
 }
 .home-story{
   width: 100% !important;
-background-color: #b4b3b37a;
+background-color: #cfcdd1;
  
 }
 .home-story p{
@@ -90,7 +90,8 @@ background-color: #b4b3b37a;
   line-height: 30px;
 }
 .home-story img{
-  width: 100%;
+  width: 80%;
+  margin-left:20% ;
 }
 header h1 {
   font-size: 64px;
@@ -106,7 +107,7 @@ header p {
   text-align: center;
   font-size: 36px;
   margin-bottom: 30px;
-  color: #006d6f;
+  color: #e32026;
 }
 .story {
 
@@ -115,13 +116,46 @@ header p {
 
 }
 .category {
-  margin-top: 60px;
+  margin-bottom: 150px;
+
 }
 .category h3 {
+  position: relative;
   text-align: center;
   font-size: 28px;
   margin-bottom: 30px;
-  color: #006d6f;
+  color: #232a61;
+  margin-bottom: 80px;
+}
+
+.line{
+  height: 1px;
+  width: 150px;
+  
+  background-color: #e32026;
+  position: absolute;
+  bottom:-10px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+/* filters */
+.filters button{
+  background-color: #232a61;
+  border: none;
+  color: var(--bg-color);
+  padding: 10px 0;
+  width: 200px;
+  border-radius: 2px;
+}
+.filters button:hover{
+  background-color: var(--bg-color);
+  border: none;
+  color: #232a61;
+  padding: 10px 0;
+  width: 200px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 1px 0px #232a61;
 }
 .grid {
   display: grid;
@@ -135,6 +169,8 @@ header p {
   text-align: center;
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
   transition: transform 0.3s;
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 100 !important;
 }
 .card:hover {
   transform: translateY(-6px);
@@ -229,13 +265,13 @@ footer {
 
 .socail{
   text-align: center;
+ 
 }
 .socail-card{
-  width: 60%;
-    background-color:#e32026;
-    padding: 5px 10px;
-    border-radius: 5px;
+  width: 50%;
+ 
  margin: auto;
+  margin-top: 20px;
  border-radius: 10px;
 }
 .socail-media {
@@ -249,6 +285,7 @@ footer {
 }
 .socail-media p{
 color: white !important;
+font-size: 5px;
 }
  .socail-media a {
   color: var(--bg-color) !important;
@@ -256,18 +293,21 @@ color: white !important;
   
  } 
 .socail-card img{
-  width: 40px ;
-  height: 40px;
-  margin-right: 30px;
+  width: 30px ;
+  height:30px;
+  margin-right: 10px;
 }
-.email1,.email2{
-   
-    border-radius: 10px;
-
+.socail-email .email1{
+   background-color:#e32026;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
-.eml img{
-  
-
+.socail-email .email2 {
+   background-color:#e32026;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 .socail-card a{
   font-size: 20px !important;
@@ -290,7 +330,6 @@ color: white !important;
   padding: 0;
   margin: 0;
   color: var(--bg-color);
-  font-size: 20px;
 }
 /*  */
 
