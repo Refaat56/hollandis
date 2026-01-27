@@ -351,9 +351,9 @@ Hollandis reflects this mindset: international in sound, export-ready, and roote
 //   document.body.classList.toggle("dark");
 // }
 
-function downloadPDF() {
-  html2pdf().from(document.body).save("Hollandis-Portfolio.pdf");
-}
+document.getElementById("pdfBtn").onclick = function () {
+  window.print();
+};
 
 </script>
 <script>
