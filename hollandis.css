@@ -388,30 +388,3 @@ footer {
     font-size: 14px;
 }
 /* print dawanload */
-@media print {
-
-  body {
-    margin: 0;
-    padding: 0;
-  }
-
-  section {
-    page-break-before: always;
-    break-before: page;
-  }
-
-  section:first-of-type {
-    page-break-before: auto;
-  }
-
-  img,
-  .card,
-  .category,
-  .map-section {
-    page-break-inside: avoid;
-    break-inside: avoid;
-  }
-
- 
-
-}
